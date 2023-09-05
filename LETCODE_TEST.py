@@ -2,6 +2,8 @@ import time
 
 from faker import Faker
 from random import randint
+from selenium import webdriver
+from webdriver_manager.firefox import GeckoDriverManager
 
 import unittest
 

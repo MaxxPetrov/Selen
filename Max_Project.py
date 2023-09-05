@@ -5,11 +5,13 @@ from faker import Faker
 from random import randint
 
 import unittest
-from webdriver_manager.firefox import GeckoDriverManager
+
 from selenium import webdriver
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.firefox.service import Service as GeckoDriverManager
+
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.alert import Alert
 
